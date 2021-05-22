@@ -1,0 +1,12 @@
+#login-form{
+    position: relative;
+    top: 150px;
+    left: 250px;
+    width: 60%;
+}
+
+#login-form input{
+    margin: 20px 0;
+    background-color: #000;
+    color: #f4f4f4;
+}

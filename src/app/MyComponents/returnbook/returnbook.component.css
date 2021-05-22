@@ -1,0 +1,16 @@
+form{
+    margin: 200px 0 0 0;
+}
+
+input{
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #000;
+    color: #f4f4f4;
+    border: #f4f4f4 1px solid;
+}
+
+#main-footer{
+    position: relative;
+    top: 110px;
+}

@@ -1,0 +1,13 @@
+<div class="wrapper">
+    <app-header></app-header>
+    <div class="container">
+        <div class="box1">
+            <form id="del-search-form" (ngSubmit)="deleteBook()">
+                <input type="number"  name="bid" [(ngModel)] ="bid" placeholder="Enter book ID...">
+                <input type="submit" value="Delete">
+            </form>
+        </div>
+        <h5>  {{ msg }} </h5>
+    </div>
+    <app-footer class="pos-foot"></app-footer>
+</div>

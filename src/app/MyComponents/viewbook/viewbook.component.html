@@ -1,0 +1,26 @@
+<div class="wrapp">
+<app-header></app-header>
+<div class="container">
+    <ul>
+        <li><span><h6>ID</h6></span>
+            <span><h6>Title</h6></span>
+            <span><h6>Author</h6></span>
+            <span><h6>Price</h6></span>
+            <span><h6>Issued date</h6></span>
+            <span><h6>Return date</h6></span>
+            <span><h6>Issued to</h6></span>
+        </li>
+    </ul>
+    <ul *ngFor = " let data of myData">
+        <li><span class="lil"><p class="lil"><small  class="lil"> {{ data.bid }} </small></p></span>
+            <span><p><small> {{ data.btitle }} </small></p></span>
+            <span><p><small> {{ data.bauthor }} </small></p></span>
+            <span><p><small> {{ data.bprice }} </small></p></span>
+            <span class="lar"><p><small> {{ data.bissue }} </small></p></span>
+            <span class="lar"><p><small> {{ data.breturn }} </small></p></span>
+            <span><p><small> {{ data.brollno }} </small></p></span>
+        </li>
+    </ul>
+</div>
+<app-footer></app-footer>
+</div>

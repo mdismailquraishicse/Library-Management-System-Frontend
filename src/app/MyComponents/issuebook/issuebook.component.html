@@ -1,0 +1,23 @@
+<div class="wrapper">
+    <div class="container">
+        <div class="box1">
+            <form (ngSubmit)="issueBook()">
+                <input type="number" placeholder="Enter Book ID..." name="bid" [(ngModel)] = "issue.bid">
+                <div class="box2">
+                    <label>Date of issue</label>
+                    <input type="date" name="idate" [(ngModel)] = "issue.bissue">
+                </div>
+                <div class="box2">
+                    <label>Date of return</label>
+                    <input type="date" name="rdate" [(ngModel)] = "issue.breturn">
+                </div>
+                <div class="box2">
+                    <label>Issue to</label>
+                    <input type="number" id="roll" placeholder="Roll number" name="roll" [(ngModel)] = "issue.brollno">
+                </div>
+                <input class="btn1" type="submit" value="Issue">
+            </form>
+        </div>
+    </div>
+    <app-footer id="main-footer"></app-footer>
+</div>

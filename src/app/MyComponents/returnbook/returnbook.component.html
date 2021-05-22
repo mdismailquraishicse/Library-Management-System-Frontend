@@ -1,0 +1,10 @@
+<div class="wrapper">
+    <app-header></app-header>
+    <div class="container">
+        <form (ngSubmit)="returnBook()">
+            <input type="number" placeholder="Enter book id..." name="bid" [(ngModel)] = "bid">
+            <input type="submit" value="Return">
+        </form>
+    </div>
+    <app-footer id="main-footer"></app-footer>
+</div>
